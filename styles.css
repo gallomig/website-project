@@ -5,7 +5,11 @@
     font-family: Roboto, sans-serif;
   }
 */
-
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
 .upper-section {
     
@@ -74,15 +78,27 @@ ul {
 .placeholder {
     width: 500px;
     height: 200px;
-    background-color: grey ;
+    background-color: grey;
+    color: red;
+    text-align: center;
 }
 
 .placeholder-text {
-    color: white;
-    text-align: center;
-    padding: 100px;
+
 }
 
+.lower-header-button {
+    padding: 16px 8px;
+}
+
+.b1 {
+    background-color: #3882f6;
+    padding: 4px 20px;
+    color: #E5E7EB;
+    border: none;
+    text-align: center;
+    border-radius: 4px;
+}
 /* Middle Section Starts Here*/
 
 /*upper content*/
