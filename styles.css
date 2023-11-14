@@ -1,119 +1,111 @@
-/*body {
-    height: 100vh;
-    margin: 0;
-    overflow: hidden;
-    font-family: Roboto, sans-serif;
-  }
-*/
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+body {
+    max-width: 1500px;
+    margin:auto;
+    background-color: #131922;
 }
-
-.upper-section {
-    
-}
-/*Header Section Starts Here*/
-
-/*upper header part*/
-
-.upperheader {
-    background-color: #1F2937;
+/* UPPER HEADER */
+nav {
+    background-color: #1f2937;
     display: flex;
-}
-
-.upperheaderpic {
-    color: #F9FAF8;
-    font-weight: bold;
-    font-size: 24px;
     padding-left: 10px;
-}
-
-.header-links {
-    list-style-type: none;
+    padding-right: 10px;
+    justify-content: space-between;
+    align-items: center;
     font-size: 18px;
     color: #e5e7eb;
-    display: flex;
-    flex: 1;
-    justify-content: flex-end;
-    gap: 10px;
-    padding-right: 10px;
+    
 }
 
-a {
+nav p {
+    display: inline-block;
+    font-weight: bold;
+}
+.nav-links {
+    list-style: none;
+    display: flex;  
+}
+.nav-item a {
+    display: inline-block;
+    padding: 10px 15px;
     text-decoration: none;
-    color: white;
+    color: #e5e7eb;
 }
 
-/*lower header part*/
+/* LOWER HEADER */
 
 .lower-header {
-    background-color: #1F2937;
+    background: #1f2937;
     display: flex;
+    gap: 10px;
+    justify-content: center;
+    height: 350px;  
 }
 
-.lower-header-text1,
-.lower-header-text2 {
-    color: white;
+.left-side {
+    flex: 1;
+    flex-direction: column;
+    max-width: 500px;
+    align-self: center;
 }
 
-ul {
-    list-style-type: none;
+.left-side p {
+margin: auto;
 }
 
-.lower-header-text1 {
+.title {
     font-size: 48px;
     font-weight: bolder;
-    color #F9FAF8;
-    width: 350px;
+    color: #f9faf8;
+    margin-bottom: 10px;
 }
 
-.lower-header-text2 {
+.upper-text {
+    color: #f9faf8;
     font-size: 18px;
-    color: #E5E7EB;
-    width: 450px;
+    margin-top: 10px;
+}
+.upper-button {
+    margin: auto;
+    position: fixed;
+    top: 360px;
+}
+.right-side {
+    flex: 1;
+    max-width: 500px;
+    align-self: center;
+    justify-content: center;
+}
+.right-side img { 
+    width: 350px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.placeholder {
-    width: 500px;
-    height: 200px;
-    background-color: grey;
-    color: red;
-    text-align: center;
-}
-
-.placeholder-text {
-
-}
-
-.lower-header-button {
-    padding: 16px 8px;
-}
-
-.b1 {
-    background-color: #3882f6;
-    padding: 4px 20px;
-    color: #E5E7EB;
-    border: none;
-    text-align: center;
-    border-radius: 4px;
-}
-/* Middle Section Starts Here*/
-
-/*upper content*/
-.upper-content {
+.content-container {
     background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.cards {
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); 
+    margin-bottom: 10px; 
 }
 
-/*lower content*/
+.card-container {
+    text-align: center;
+}
+
 .lower-content {
-    background-color: white;
+    background-color: #e5e7eb;
     display: flex;
 }
 
-.footer{
-   background-color: #1F2937;
-   display: flex;
+.lower-content p {
+    text-align: center;
 }
